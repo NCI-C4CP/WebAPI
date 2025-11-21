@@ -17,7 +17,7 @@
     <flyway.version>4.2.0</flyway.version>
     <waffle.version>2.2.1</waffle.version>
     <jna.version>5.5.0</jna.version>
-    <hibernate.version>5.4.2.Final</hibernate.version>
+    <hibernate.version>6.2.0.Final</hibernate.version>
     <postgresql.version>42.3.10</postgresql.version>
     <bouncycastle.version>1.69</bouncycastle.version>
     <shiro.version>1.13.0</shiro.version>
@@ -26,14 +26,14 @@
     <featureExtraction.version>3.8.0</featureExtraction.version>
     <tomcat.embed.version>8.5.87</tomcat.embed.version>
 
-    <commons-fileupload.version>1.5</commons-fileupload.version>
+    <commons-fileupload.version>1.6.0</commons-fileupload.version>
 
     <circe.version>1.12.1</circe.version>
     <jersey.version>2.14</jersey.version>
     <SqlRender.version>1.19.1</SqlRender.version>
     <hive-jdbc.version>3.1.2</hive-jdbc.version>
-    <pac4j.version>4.0.0</pac4j.version>
-    <jackson.version>2.12.7</jackson.version>
+    <pac4j.version>4.5.5</pac4j.version>
+    <jackson.version>2.15.0</jackson.version>
     <start-class>org.ohdsi.webapi.WebApi</start-class>
     <skipUnitTests>false</skipUnitTests>
     <skipITtests>false</skipITtests>
@@ -684,7 +684,7 @@
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.19</version>
+      <version>1.4.21</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -744,7 +744,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
-      <version>5.4.2.Final</version>
+      <version>5.4.24.Final</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -804,7 +804,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.12.0</version>
+      <version>3.18.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -865,7 +865,7 @@
     <dependency>
       <groupId>com.microsoft.sqlserver</groupId>
       <artifactId>mssql-jdbc</artifactId>
-      <version>10.2.1.jre8</version>
+      <version>11.1.0.jre8-preview</version>
     </dependency>
     <dependency>
       <groupId>com.microsoft.azure</groupId>
@@ -1042,7 +1042,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-crypto</artifactId>
-      <version>4.2.3.RELEASE</version>
+      <version>6.3.8</version>
     </dependency>
     <dependency>
       <groupId>com.zaxxer</groupId>
@@ -1113,7 +1113,7 @@
     <dependency>
       <groupId>org.springframework.ldap</groupId>
       <artifactId>spring-ldap-core</artifactId>
-      <version>2.3.2.RELEASE</version>
+      <version>2.4.4</version>
     </dependency>
     <dependency>
       <groupId>com.odysseusinc</groupId>
@@ -1539,7 +1539,7 @@
         <dependency>
           <groupId>com.databricks</groupId>
           <artifactId>databricks-jdbc</artifactId>
-          <version>2.6.34</version>
+          <version>2.6.40</version>
           <scope>runtime</scope>
         </dependency>
       </dependencies>
