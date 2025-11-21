@@ -13,7 +13,11 @@ sandbox/
 /nbactions*.xml
 *~
 .DS_Store
+**/.DS_Store
 .factorypath
+.env
+**/.env
+bigquery-jdbc/
 
 ### Developer's personal properties ###
 **/resources/config/application*-dev-*.properties
